@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/repoName/static/css/main.92d3a711.css",
+    "main.js": "/repoName/static/js/main.7e84410f.js",
+    "static/js/453.0f4b2a93.chunk.js": "/repoName/static/js/453.0f4b2a93.chunk.js",
+    "static/media/hayley-kim-studios-eot-ka5dM7Q-unsplash.jpg": "/repoName/static/media/hayley-kim-studios-eot-ka5dM7Q-unsplash.646e490ecbb4af43498b.jpg",
+    "static/media/anastase-maragos-7kEpUPB8vNk-unsplash.jpg": "/repoName/static/media/anastase-maragos-7kEpUPB8vNk-unsplash.e32dd3d293770074495d.jpg",
+    "static/media/team3.jpg": "/repoName/static/media/team3.c8ebf5588ec0bd90baee.jpg",
+    "static/media/team2.jpg": "/repoName/static/media/team2.82f74237683ccbb77fbf.jpg",
+    "static/media/anastase-maragos-9dzWZQWZMdE-unsplash.jpg": "/repoName/static/media/anastase-maragos-9dzWZQWZMdE-unsplash.a8f5c166ec478244cc9b.jpg",
+    "static/media/team1.jpg": "/repoName/static/media/team1.d79377d9c73b8fa45518.jpg",
+    "static/media/ourstory.jpeg": "/repoName/static/media/ourstory.fa04ffa8f106aa3a0031.jpeg",
+    "static/media/abouthero.jpg": "/repoName/static/media/abouthero.50f658b2de02e6f15ffd.jpg",
+    "static/media/pngegg (3).png": "/repoName/static/media/pngegg (3).aad51f19d9563219bead.png",
+    "index.html": "/repoName/index.html",
+    "main.92d3a711.css.map": "/repoName/static/css/main.92d3a711.css.map",
+    "main.7e84410f.js.map": "/repoName/static/js/main.7e84410f.js.map",
+    "453.0f4b2a93.chunk.js.map": "/repoName/static/js/453.0f4b2a93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92d3a711.css",
+    "static/js/main.7e84410f.js"
+  ]
+}

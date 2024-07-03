@@ -1,0 +1,154 @@
+.about-us {
+  background-color: #414141; /* Dark background color */
+  padding: 30px 0; /* Padding top and bottom */
+  font-family: 'Roboto', sans-serif;
+  color: #f8f9fa; /* Light text color */
+}
+
+.section {
+  margin-bottom: 40px;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #515151;
+  color: white;
+}
+
+.section h1, .section h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-hero {
+  background: url('/src/images/abouthero.jpg') no-repeat center center;
+  position: relative;
+  background-size: cover;
+  text-align: center;
+  padding: 130px 0;
+  color: #f8f9fa; /* Ensure text color is light */
+}
+
+.about-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 0; /* Ensure overlay is behind the content */
+}
+
+.about-hero-content {
+  position: relative;
+  z-index: 1; /* Ensure content is above overlay */
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* Team Member Styling */
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+  background: #515151;
+  border-radius: 10px;
+  margin: 0 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.team-member::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.team-member:hover::before {
+  border-color: white;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  color: #fdfdfd;
+}
+
+.team-member p {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+
+.our-story {
+  background: url('/src/images/ourstory.jpeg') no-repeat center center;
+  position: relative;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0;
+  color: #f8f9fa; /* Ensure text color is light */
+}
+
+.our-story::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.our-story-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .team-member img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .team-member h3 {
+    font-size: 1.2rem;
+  }
+
+  .team-member p {
+    font-size: 1rem;
+  }
+}
